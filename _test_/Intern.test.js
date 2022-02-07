@@ -1,5 +1,5 @@
 const Intern = require('../lib/Intern');
-const intern = new Intern ('Mubi', '90210', 'mamonam4@gmail.com', 'CCSU');
+const intern = new Intern('Mubi', '90210', 'mamonam4@gmail.com', 'CCSU');
 
 test('test to see if we can get the vales for intern objects',
 () => {

@@ -1,4 +1,4 @@
-const Manager = require('../lib.Manager');
+const Manager = require('../lib/Manager');
 const manager = new Manager('Zim', '80210', 'mamonam4@gmail.com','2037895432');
 
 test('test to see if we can get the values for manager object', () =>{
