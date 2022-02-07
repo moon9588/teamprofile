@@ -15,12 +15,12 @@ const promptManager = () => {
         {
             type: 'input',
             name: 'name',
-            message: 'What is your name? (required)',
+            message: 'What is your name? ',
             validate: nameInput => {
                 if (nameInput) {
                     return true;
                 } else {
-                    console.log('Please enter your name!');
+                    console.log('Enter your name!');
                     return false;
                 }  
             }
@@ -28,12 +28,12 @@ const promptManager = () => {
         {
             type: 'input',
             name:'employeeID',
-            meassage: 'Enter your employee ID (Required)',
+            meassage: 'Enter your employee ID ',
             validate: employeeId => {
                 if (employeeId){
                     return true;
                 } else {
-                    console.log('Please enter your employee ID');
+                    console.log('Enter employee ID');
                     return false;
                 }
             }
@@ -41,12 +41,12 @@ const promptManager = () => {
         {
             type:'input',
             name:'email',
-            meassage: 'Enter your email address (Required)',
+            meassage: 'Enter your email address ',
             validate: email => {
                 if (email){
                     return true;
                 } else{
-                    console.log('Please enter your email address');
+                    console.log('Enter email address');
                     return false;
                 }
             }
@@ -55,12 +55,12 @@ const promptManager = () => {
         {
             type:'input',
             name:'officePhone',
-            meassage: 'Enter your office phone number (Required)',
+            meassage: 'Enter office phone number',
             validate: OfficePhone => {
                 if (OfficePhone){
                     return true;
                 } else{
-                    console.log('Please enter your email address');
+                    console.log('Enter email address');
                     return false;
                 }
             }
@@ -79,8 +79,8 @@ const promptMenu = () => {
         {
             type:'list',
             name:'menu',
-            meassage:'Please select the position of employee you would like to add to this team:',
-            choices: ['add an enineer', 'add an intern', 'dream team is now complete!']
+            meassage:'Please enter the position of employee you would like to add to this team:',
+            choices: ['add engineer', 'add intern', 'team is ready now!']
 
         }
     ])
@@ -104,12 +104,12 @@ const promptEngineer = () => {
         {
             type: 'input',
             name: 'name',
-            message: 'What is your name? (required)',
+            message: 'What is your name?',
             validate: nameInput => {
                 if (nameInput) {
                     return true;
                 } else {
-                    console.log('Please enter your name!');
+                    console.log('Enter your name!');
                     return false;
                 }  
             }
@@ -117,12 +117,12 @@ const promptEngineer = () => {
         {
             type: 'input',
             name:'employeeID',
-            meassage: 'Enter your employee ID (Required)',
+            meassage: 'Enter employee ID ',
             validate: employeeId => {
                 if (employeeId){
                     return true;
                 } else {
-                    console.log('Please enter your employee ID');
+                    console.log('Enter employee ID');
                     return false;
                 }
             }
@@ -130,12 +130,12 @@ const promptEngineer = () => {
         {
             type:'input',
             name:'email',
-            meassage: 'Enter your email address (Required)',
+            meassage: 'Enter email address',
             validate: email => {
                 if (email){
                     return true;
                 } else{
-                    console.log('Please enter your email address');
+                    console.log('Enter email address');
                     return false;
                 }
             }
@@ -149,7 +149,7 @@ const promptEngineer = () => {
                 if (githubUsername){
                     return true;
                 } else{
-                    console.log('Please enter github Username');
+                    console.log('Enter github Username');
                     return false;
                 }
             }
@@ -177,12 +177,12 @@ const promptIntern = () => {
         {
             type: 'input',
             name: 'name',
-            meassage: 'What is the name of intern (Required)',
+            meassage: 'What is interns name (Required)',
             validate: internName => {
                 if (internName){
                     return true;
                 } else {
-                    console.log ('Please enter the name of intern!');
+                    console.log ('Enter the name of intern!');
                     return false;
                 }
                 }
@@ -195,7 +195,7 @@ const promptIntern = () => {
                 if (employeeID){
                     return true;
                 } else {
-                    console.log ("Please enter the intern's employee ID");
+                    console.log ("Enter intern's employee ID");
                     return false;   
                 }
             }
@@ -203,12 +203,12 @@ const promptIntern = () => {
         {
             type: 'input',
             name: 'Email',
-            meassage: "Enter intern's email address (Required)",
+            meassage: "Enter intern's email address",
             validate: email => {
                 if (email){
                     return true;
                 } else {
-                    console.log ("Please enter intern's email");
+                    console.log ("Enter intern's email");
                     return false;   
                 }
             }
@@ -217,12 +217,12 @@ const promptIntern = () => {
         {
             type: 'input',
             name: 'school',
-            meassage: "Enter intern's school (Required)",
+            meassage: "Enter intern's school ",
             validate: school => {
                 if (school){
                     return true;
                 } else {
-                    console.log ("Please enter intern's school");
+                    console.log ("Enter intern's school");
                     return false;   
                 }
             }
