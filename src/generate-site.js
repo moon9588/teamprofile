@@ -76,7 +76,7 @@ module.exports = team => {
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>TeamProfile </title>
-    <link rel="stylesheet" href="https:/stackpath.bootstrapcdn.com/bootstrap.4.5.0/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="https:/stackpath.bootstrapcdn.com/bootstrap.4.5.0/css/bootstrap.min.css"
         integrity="sha384-50oBHUEmvpQ+1lW4y57PTFmhCaXp0ML5d60M7uH2+nqUivzIebhndOJK28anvf" crossorgin="anonymous" />
         <script src="https://kit.fontawesome.com/1e0a13a89f.js" crossorigin="anonymous"></script>
         <link rel="stylesheet" href="../dist/style.css">
