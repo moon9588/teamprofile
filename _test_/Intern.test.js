@@ -3,8 +3,8 @@ const intern = new Intern('Mubi', '90210', 'mamonam4@gmail.com', 'CCSU');
 
 test('test to see if we can get the vales for intern objects',
 () => {
-    expect(intern.name).toBE('Mubi');
-    expect(intern.id).tobe('90210');
+    expect(intern.name).toBe('Mubi');
+    expect(intern.id).toBe('90210');
     expect(intern.email).toBe('mamonam4@gmail.com');
 
 });
