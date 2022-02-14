@@ -7,7 +7,7 @@ const Engineer = require('./lib/Engineer');
 const generateSite = require('./src/generate-site.js');
 const path = require('path');
 const internal = require('stream');
-const OUTPUT_DIR = path.resolve(_dirname, "output");
+const OUTPUT_DIR = path.resolve(__dirname, "output");
 const outputPath = path.join(OUTPUT_DIR, "team.html");
 const teamMembers = [];
 const promptManager = () => {

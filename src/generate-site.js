@@ -34,7 +34,7 @@ const generateTeam = (team) => {
         html.push (engineerHtml);
     }
   
-    const generateEngineer = intern => {
+    const generateIntern = intern => {
         console.log (intern);
         let internHtml=`
         <div class="card" style ="width: 20rem;">
